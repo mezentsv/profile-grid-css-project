@@ -564,6 +564,7 @@ Connect
   margin: 5rem 0;
   display: grid;
   place-items: center;
+  clip-path: polygon(0 10%, 50% 0, 100% 10%, 100% 90%, 50% 100%, 0 90%);
 }
 .video-container {
   position: absolute;
@@ -589,6 +590,15 @@ Connect
   background: var(--clr-primary-10);
   padding: 3rem 5rem 12rem 5rem;
   text-align: center;
+  clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 75%,
+    75% 75%,
+    75% 100%,
+    50% 75%,
+    0% 75%
+  );
 }
 .video-banner .section-title {
   margin-bottom: 2rem;
